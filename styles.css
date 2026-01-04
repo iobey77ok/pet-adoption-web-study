@@ -1,3 +1,30 @@
-body {
-    color: orange;
+body,
+html {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+.top-section-wrapper {
+    background-color: #001D37;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.top-section {
+    background-color: #001D37;
+    color: white;
+    /*add some vertical space*/
+    padding-top: 139px;
+    padding-bottom: 67px;
+    max-width: 1066px;
+    margin: 0 auto;
+}
+
+.our-btn {
+    background-color: 475AFF;
+    color: #FFF;
+    text-decoration: none;
+    padding: 14px 40px;
+    border-radius: 71px;
 }
