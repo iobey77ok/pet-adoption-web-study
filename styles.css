@@ -5,6 +5,13 @@ html {
     background-color: white;
 }
 
+body {
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
 .top-section-wrapper {
     background-color: #001D37;
     padding-left: 16px;
@@ -22,9 +29,19 @@ html {
 }
 
 .our-btn {
+    font-weight: 600;
     background-color: 475AFF;
     color: #FFF;
     text-decoration: none;
     padding: 14px 40px;
     border-radius: 71px;
+}
+
+.our-btn--outline {
+    background-color: transparent;
+    border: 2px solid white;
+}
+
+.utility-mr {
+    margin-right: 11px;
 }
