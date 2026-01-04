@@ -13,9 +13,15 @@ body {
 }
 
 .top-section-wrapper {
+    overflow: hidden;
     background-color: #001D37;
     padding-left: 16px;
     padding-right: 16px;
+}
+
+.actual-top-content {
+    z-index: 2;
+    position: relative;
 }
 
 .top-section {
@@ -26,6 +32,7 @@ body {
     padding-bottom: 67px;
     max-width: 1066px;
     margin: 0 auto;
+    position: relative;
 }
 
 .top-section h1 {
@@ -87,4 +94,26 @@ body {
 .intro-feature p {
     margin: 0;
     font-size: 1.0625rem;
+}
+
+.circle {
+    position: absolute;
+    width: 617px;
+    height: 617px;
+    left: 1028px;
+    top: 62px;
+    background: #D660FF;
+    filter: blur(150px);
+    opacity: .85;
+}
+
+.circle-blue {
+    position: absolute;
+    width: 617px;
+    height: 617px;
+    left: 67px;
+    top: -360px;
+    background: #6079FF;
+    filter: blur(150px);
+    opacity: .85;
 }
