@@ -117,3 +117,58 @@ body {
     filter: blur(150px);
     opacity: .85;
 }
+
+.page-section {
+    background-color: #FFF;
+    padding: 131px 16px;
+}
+
+/* use page section inner to center when we view
+in full screen*/
+.page-section-inner {
+    max-width: 1066px;
+    margin: 0 auto;
+    /* zero vertical margin, but auto center horizontal*/
+}
+
+.page-section-title {
+    font-size: 5.31rem;
+    font-family: "Source Sans 3", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    margin: 0;
+    line-height: 1;
+    color: #000000;
+}
+
+.pet-filter {
+    font-family: "Source Sans 3", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    color: #9F9F9F;
+}
+
+.pet-filter button {
+    background-color: transparent;
+    border: none;
+    font-family: "Source Sans 3", sans-serif;
+    font-style: normal;
+    font-size: 22px;
+    font-weight: 400;
+    color: #9F9F9F;
+    padding: 0px 15px;
+}
+
+.site-footer {
+    margin: 0;
+    padding: 0 0 65px 0;
+    font-family: "Source Sans 3", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 97.3%;
+    text-align: center;
+    color: #A6A6A6;
+}
