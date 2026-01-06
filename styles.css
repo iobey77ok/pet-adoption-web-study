@@ -172,3 +172,32 @@ in full screen*/
     text-align: center;
     color: #A6A6A6;
 }
+
+.list-of-pets {
+    display: grid;
+    /* create 2 columns where all sizes are equal */
+    grid-template-columns: 1fr 1fr;
+    column-gap: 34px;
+}
+
+.pet-card {
+    display: grid;
+    grid-template-columns: 165px 1fr;
+    overflow: hidden;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 1px solid #F3F3F3;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.08);
+    border-radius: 20px;
+
+}
+
+.pet-card-photo {
+    order: 1;
+    grid-row: 1;
+}
+
+.pet-card-photo img {
+    width: 100%;
+    display: block;
+}
